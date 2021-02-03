@@ -1,0 +1,8 @@
+<app-book-entry
+  *ngFor="let book of books"
+  [book]="book"
+  (bookInteracted)="loadBooks()">
+</app-book-entry>
+<div class="list-actions">
+  <button mat-button (click)="add()">Add new book entry</button>
+</div>

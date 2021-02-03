@@ -1,0 +1,14 @@
+:host {
+  width: 80vw;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  display: block;
+  app-book-entry {
+    padding: 2em;
+  }
+  .list-actions {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
